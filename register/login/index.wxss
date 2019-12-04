@@ -1,0 +1,45 @@
+.input{
+  margin:30rpx;
+  background-color:snow;
+}
+
+.team{
+  text-align: center;
+  margin:50rpx;
+  font-weight:bold;
+}
+
+.input1{
+  margin:70rpx;
+  margin-right:30rpx;
+  font-size:45rpx;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button{
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+  margin-left:50rpx;
+  margin-right:50rpx;
+}
+
+.avatar{
+  overflow:hidden;  
+  display: block;  
+  width: 200rpx;  
+  height: 200rpx;  
+  margin-top: 50rpx;
+  margin-left:275rpx;  
+  border-radius: 50%;  
+  border: 2px solid #fff;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.simplelogin{
+  top:300rpx
+}
+
+.wechatlogin{
+  top:300rpx
+}

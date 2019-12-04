@@ -1,0 +1,22 @@
+<view>
+  <view class="title">欢迎登录化学系实践财务登记系统</view>
+  <view class="team">{{basicInfo.team}}支队</view>
+  <button bindtap="addbill" class="button" type="primary">登记账目</button>
+  <view class="team">--------------已登记账目-------------</view>
+
+  <view wx:for="{{billsInfo}}" wx:key="111" class="bill">
+    <view class="total">  
+      <view class="billinfo">
+        <view class="detailinfo">类型：{{item.identity}}</view>
+        <view class="detailinfo">时间：{{item.date}}</view>
+        <view class="detailinfo">价格：{{item.price}}</view>
+        <view class="detailinfo" wx:if="{{item.name!=''}}">姓名或人数：{{item.name}}</view>
+        <view class="detailinfo" wx:if="{{item.locate!=''}}">地点：{{item.locate}}</view>
+      </view>
+      <view class="billedit">
+        <view bindtap="modify" data-index = '{{index}}' class="edit">修改账目</view>
+        <view bindtap="deletebill" data-index = '{{index}}' class="edit">删除账目</view>
+      </view>
+    </view>
+  </view>
+</view>

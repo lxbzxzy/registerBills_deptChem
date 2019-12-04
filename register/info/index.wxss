@@ -1,0 +1,53 @@
+.input{
+  margin:35rpx;
+}
+
+.bill{
+  margin:35rpx;
+  border:4rpx solid #f5f5f5;
+  border-radius: 5%;
+}
+
+.button{
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+  margin-left:50rpx;
+  margin-right:50rpx;
+}
+
+.title{
+  text-align: center;
+  margin:25rpx;
+  font-weight:bold;
+}
+
+.team{
+  text-align: center;
+  font-weight:bold;
+  color:rgb(57, 1, 82);
+}
+
+.detailinfo{
+  font-size:25rpx;
+  margin-left:20rpx;
+}
+
+.edit{
+  color:#0066cc;
+  font-size:35rpx;
+  text-decoration:underline;
+}
+
+.billinfo{
+  width:450rpx;
+}
+
+.billedit{
+  width:200rpx;
+  right:20rpx;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,16 @@
+<view>
+  <view wx:if="{{!wxlogin}}">
+    <view class="input1">化学系实践财务登记系统</view>
+    <input class="input" placeholder="请输入支队名称" bindinput="input1"/>
+    <input class="input" placeholder="请输入财务姓名" bindinput="input2" />
+    <button class="button" bindtap="login" type="primary">登录</button>
+  </view>
+  <view wx:if="{{wxlogin}}">
+    <view class="avatar">
+      <open-data type="userAvatarUrl" ></open-data>
+    </view>
+    <view class="team">支队：{{team}}</view>
+    <button class="button" bindtap="wxlogin" type="primary">微信登录</button>
+    <button class="button" bindtap="debind">切换账号</button>
+  </view>
+</view>
